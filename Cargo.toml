@@ -1,0 +1,15 @@
+[package]
+name = "poseidon2_m31"
+version = "0.1.0"
+edition = "2021"
+authors = ["Anhelina <krukanhelina06@gmail.com>"]
+description = "Poseidon2 hash function for M31 field, compatible with Stwo"
+license = "MIT"
+repository = "https://github.com/anhelina/poseidon2_m31"
+keywords = ["poseidon", "hash", "stark", "m31", "stwo"]
+categories = ["cryptography"]
+readme = "README.md"
+
+[dependencies]
+stwo = { version = "1.0", features = ["prover"] }
+
