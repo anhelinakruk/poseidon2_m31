@@ -627,10 +627,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "std-shims"
+version = "0.1.0"
+source = "git+https://github.com/starkware-libs/stwo?branch=dev#699ae6e8f014d59749aca058be18b081e44628ea"
+
+[[package]]
 name = "stwo"
-version = "1.0.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5e487d011fb1370cb22142bbc7095a31ca6371424f5d1e2fc83a7d453fb69f8d"
+version = "0.1.1"
+source = "git+https://github.com/starkware-libs/stwo?branch=dev#699ae6e8f014d59749aca058be18b081e44628ea"
 dependencies = [
  "blake2",
  "blake3",
@@ -647,17 +651,11 @@ dependencies = [
  "serde",
  "starknet-crypto",
  "starknet-ff",
- "stwo-std-shims",
+ "std-shims",
  "thiserror",
  "tracing",
  "tracing-subscriber",
 ]
-
-[[package]]
-name = "stwo-std-shims"
-version = "1.0.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5c21e2c707fb8926e6c4355a87494c29e8e46640ff4796aa8fbb74952327dfdc"
 
 [[package]]
 name = "subtle"
