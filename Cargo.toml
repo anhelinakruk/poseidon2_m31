@@ -11,5 +11,5 @@ categories = ["cryptography"]
 readme = "README.md"
 
 [dependencies]
-stwo = { git = "https://github.com/starkware-libs/stwo", branch = "dev", features = ["prover"] }
+stwo = { git = "https://github.com/starkware-libs/stwo", branch = "dev"}
 
